@@ -31,7 +31,7 @@ const About: React.FC = () => {
                   <div>
                     <h3 className="font-semibold">Bio</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Based in San Francisco, I'm a full-stack developer with 5+ years of experience building web and mobile applications.
+                      Based in, I'm a full-stack developer with a passion for creating exceptional digital experience building web and mobile applications.
                     </p>
                   </div>
                 </div>
@@ -41,8 +41,9 @@ const About: React.FC = () => {
                   <div>
                     <h3 className="font-semibold">Experience</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Senior Developer at TechCorp (2020-Present)<br />
-                      Developer at WebSolutions (2018-2020)
+                      2+ years of experience in web development and mobile app development, specializing in React and React Native.
+                      <br />
+                      1+ years of experience in Desktop Application Development with Electron.js.
                     </p>
                   </div>
                 </div>
@@ -52,7 +53,9 @@ const About: React.FC = () => {
                   <div>
                     <h3 className="font-semibold">Education</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      B.S. Computer Science, University of California (2018)
+                      BICT(Bachelor of Information and Communication Technology) from Faculty of Technology, University of Ruhuna, Sri Lanka. 
+                      <br />
+                      Expected to Graduat in 2026 with a focus on software development and web technologies.
                     </p>
                   </div>
                 </div>
@@ -62,7 +65,7 @@ const About: React.FC = () => {
                   <div>
                     <h3 className="font-semibold">Coding Activity</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      250+ contributions on GitHub in the last year
+                      50+ contributions on GitHub in the last year
                     </p>
                   </div>
                 </div>

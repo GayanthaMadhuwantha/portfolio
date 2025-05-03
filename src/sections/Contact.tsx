@@ -126,7 +126,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-medium text-gray-900 dark:text-white">Location</h4>
                     <p className="text-gray-600 dark:text-gray-400">
-                      San Francisco, CA
+                      Walasmulla, Hambantota, Sri Lanka.
                     </p>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ const Contact: React.FC = () => {
               
               <div className="mt-8 p-4 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-100 dark:border-primary-900/30">
                 <p className="text-gray-600 dark:text-gray-400">
-                  Available for freelance projects and full-time positions. Let's discuss how I can help bring your ideas to life.
+                  Available for Interesting projects and full-time positions. Let's discuss how I can help bring your ideas to life.
                 </p>
               </div>
             </div>
