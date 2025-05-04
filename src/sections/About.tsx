@@ -83,7 +83,7 @@ const About: React.FC = () => {
                 My passion lies in creating intuitive user interfaces and efficient backend systems. I enjoy the process of transforming ideas into functional applications that provide value to users. I'm constantly learning new technologies and techniques to improve my skills and stay current with industry trends.
               </p>
               <p className="text-gray-600 dark:text-gray-400">
-                When I'm not coding, you can find me hiking, reading tech blogs, or experimenting with new frameworks and libraries. I believe in writing clean, maintainable code and building applications that are not only functional but also visually appealing.
+                When I'm not coding, I enjoy experimenting with new frameworks and libraries. I believe in writing clean, maintainable code and building applications that are not only functional but also visually appealing.
               </p>
             </div>
             
