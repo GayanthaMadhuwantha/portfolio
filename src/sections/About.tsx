@@ -31,7 +31,7 @@ const About: React.FC = () => {
                   <div>
                     <h3 className="font-semibold">Bio</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Based in, I'm a full-stack developer with a passion for creating exceptional digital experience building web and mobile applications.
+                      Based on, I'm a full-stack developer with a passion for creating exceptional digital experience building web and mobile applications.
                     </p>
                   </div>
                 </div>
@@ -53,9 +53,9 @@ const About: React.FC = () => {
                   <div>
                     <h3 className="font-semibold">Education</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      BICT(Bachelor of Information and Communication Technology) from Faculty of Technology, University of Ruhuna, Sri Lanka. 
+                      BICT (Bachelor of Information and Communication Technology Honours) Undergraduate from Faculty of Technology, University of Ruhuna, Sri Lanka. 
                       <br />
-                      Expected to Graduat in 2026 with a focus on software development and web technologies.
+                      Expected to Graduate in 2026 with a focus on software development and web technologies.
                     </p>
                   </div>
                 </div>
