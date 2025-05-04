@@ -29,7 +29,7 @@ export const skills: Skill[] = [
   {
     name: "Tailwind CSS",
     icon: "tailwind",
-    level: 4
+    level: 3
   },
   {
     name: "SQL",
@@ -80,7 +80,7 @@ export const skills: Skill[] = [
   {
     name: "Firebase",
     icon: "firebase",
-    level: 4
+    level: 3
   },
   {
     name: "GitHub",
