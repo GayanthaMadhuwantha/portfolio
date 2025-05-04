@@ -42,10 +42,10 @@ const Hero: React.FC = () => {
 
             <div className="mt-8 flex items-center space-x-4">
               <span className="text-gray-600 dark:text-gray-400">Connect:</span>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+              <a href="https://github.com/GayanthaMadhuwantha" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+              <a href="https://linkedin.com/in/gayantha-maduwantha-1133222aa" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
