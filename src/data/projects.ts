@@ -17,7 +17,7 @@ export const projects: Project[] = [
     description: "Mobile application for tracking sales and inventory with real-time analytics.",
     image: "https://i.postimg.cc/BQJqMn8j/Screenshot-20250331-110744-portrait.png",
     category: "Mobile App",
-    technologies: ["React Native", "Firebase", "Chart.js", "Tailwind CSS","SQLite"],
+    technologies: ["React Native", "Firebase", "Chart.js", "Tailwind CSS", "SQLite"],
     link: "https://example.com/pos-app",
     github: "https://github.com/GayanthaMadhuwantha/Point-of-sale-App-Using-React-native"
   },
@@ -44,10 +44,10 @@ export const projects: Project[] = [
   {
     id: 5,
     title: "Point Of Sale Desktop Application",
-    description: "Collaborative project management tool with task assignment, progress tracking, and team communication features.",
+    description: "Desktop application mainly for Billing and tracking detailed sales analysis in Restaurant and inventory with real-time analytics reports.",
     image: "https://i.postimg.cc/RFb5LKYm/mockuper-1.png",
     category: "Desktop",
-    technologies: ["Electron.js", "Javascript", "MySQL", "Bootsrap"],
+    technologies: ["Electron.js", "Javascript", "MySQL", "Bootstrap"],
     link: "https://example.com/pos-desktop-app",
     github: "https://github.com/GayanthaMadhuwantha/POS-system-using-Electron"
   },
