@@ -77,7 +77,7 @@ const About: React.FC = () => {
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-4">My Journey</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
-                I started my journey as a web developer over 5 years ago, working with HTML, CSS, and JavaScript. As my skills evolved, I began working with modern frameworks like React and Node.js, which allowed me to build more complex and interactive applications.
+                I started my journey as a web developer since 3 years ago, working with HTML, CSS, and JavaScript. As my skills evolved, I began working with modern frameworks like React and Node.js, which allowed me to build more complex and interactive applications.
               </p>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
                 My passion lies in creating intuitive user interfaces and efficient backend systems. I enjoy the process of transforming ideas into functional applications that provide value to users. I'm constantly learning new technologies and techniques to improve my skills and stay current with industry trends.

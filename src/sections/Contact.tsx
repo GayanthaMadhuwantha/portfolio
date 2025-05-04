@@ -52,33 +52,41 @@ const Contact: React.FC = () => {
   
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+  
     if (validate()) {
       setIsSubmitting(true);
-      
-      // Simulate form submission
-      setTimeout(() => {
-        setIsSubmitting(false);
-        setSubmitResult({
-          success: true,
-          message: 'Thank you for your message! I\'ll get back to you soon.'
+  
+      fetch('http://ecommerceapistore.atwebpages.com/contact.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+        .then(res => res.json())
+        .then(data => {
+          setIsSubmitting(true);
+          setSubmitResult({ success: data.success, message: data.message });
+  
+          if (data.success) {
+            setSubmitResult({
+              success: true,
+              message: 'Thank you for your message! I\'ll get back to you soon.'
+            });
+            setFormData({ name: '', email: '', subject: '', message: '' });
+            setTimeout(() => setSubmitResult(null), 5000);
+          }
+        })
+        .catch(error => {
+          setIsSubmitting(false);
+          setSubmitResult({
+            success: false,
+            message: 'Something went wrong. Please try again later.' + error,
+          });
         });
-        
-        // Reset form
-        setFormData({
-          name: '',
-          email: '',
-          subject: '',
-          message: ''
-        });
-        
-        // Clear success message after 5 seconds
-        setTimeout(() => {
-          setSubmitResult(null);
-        }, 5000);
-      }, 1500);
     }
   };
+  
   
   return (
     <section id="contact" className="section bg-gray-50 dark:bg-gray-800/50">

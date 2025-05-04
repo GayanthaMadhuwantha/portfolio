@@ -29,7 +29,7 @@ export const skills: Skill[] = [
   {
     name: "Tailwind CSS",
     icon: "tailwind",
-    level: 5
+    level: 4
   },
   {
     name: "SQL",
@@ -41,24 +41,56 @@ export const skills: Skill[] = [
     icon: "python",
     level: 3
   },
-  {
-    name: "Docker",
-    icon: "docker",
-    level: 3
+{
+    name: "Java",
+    icon: "java",
+    level: 4
   },
   {
-    name: "AWS",
-    icon: "cloud",
-    level: 3
+    name: "Spring Boot",
+    icon: "spring",
+    level: 4
+  },
+  {
+    name: "React Native",
+    icon: "react-native",
+    level: 4
+  },
+  {
+    name: "PHP",
+    icon: "php",
+    level: 4
+  },
+  
+  {
+    name: "Express.js",
+    icon: "express",
+    level: 2
+  },
+  {
+    name: "RESTful APIs",
+    icon: "api",
+    level: 4
+  },
+  {
+    name: "Electron.js",
+    icon: "electron",
+    level: 4
+  },
+  {
+    name: "Firebase",
+    icon: "firebase",
+    level: 4
+  },
+  {
+    name: "GitHub",
+    icon: "github",
+    level: 5
   },
   {
     name: "Git",
     icon: "git-branch",
     level: 4
   },
-  {
-    name: "UI/UX Design",
-    icon: "figma",
-    level: 4
-  }
+ 
 ];
