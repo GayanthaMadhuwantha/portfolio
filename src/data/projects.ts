@@ -95,7 +95,12 @@ export const projects: Project[] = [
     technologies: ["Spring Boot", "Java", "React", "RestAPI"],
     link: "https://example.com/betting-app",
     github: "https://github.com/GayanthaMadhuwantha/Betting-System",
-    screenshots:[]
+    screenshots:[
+      'https://i.postimg.cc/L8dCrxxN/React-App.png',
+      'https://i.postimg.cc/h4530DTF/React-App-1.png',
+      'https://i.postimg.cc/fTSq2GfV/React-App-2.png',
+
+    ]
   },
   {
     id: 5,
