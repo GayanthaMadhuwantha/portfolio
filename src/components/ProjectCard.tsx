@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { Project } from '../types';
 import Button from './Button';
+import  ScreenshotCarousel from './ScreenshotCarousel';
 
 interface ProjectCardProps {
   project: Project;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+
+   const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div className="project-card bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
       <div className="h-56 overflow-hidden">
@@ -43,7 +47,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               icon={<ExternalLink size={16} />}
               onClick={() => window.open(project.link, '_blank')}
             >
-              View Project
+              View
             </Button>
           )}
           {project.github && (
@@ -56,8 +60,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               Code
             </Button>
           )}
+          {project.screenshots && (
+            <Button 
+              variant="outline" 
+              size="sm" 
+              onClick={() => setIsModalOpen(true)}
+            >
+              Screenshots
+            </Button>
+          )}
         </div>
       </div>
+       <ScreenshotCarousel
+        isOpen={isModalOpen}
+        onRequestClose={() => setIsModalOpen(false)}
+        screenshots={project.screenshots}
+      />
     </div>
   );
 };

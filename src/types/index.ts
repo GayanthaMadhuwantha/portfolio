@@ -7,6 +7,7 @@ export interface Project {
   technologies: string[];
   link?: string;
   github?: string;
+  screenshots?: string[];
 }
 
 export interface Skill {
