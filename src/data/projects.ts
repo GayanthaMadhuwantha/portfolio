@@ -99,6 +99,8 @@ export const projects: Project[] = [
       'https://i.postimg.cc/L8dCrxxN/React-App.png',
       'https://i.postimg.cc/h4530DTF/React-App-1.png',
       'https://i.postimg.cc/fTSq2GfV/React-App-2.png',
+      'https://imagekit.io/3xq0JY2N/Screenshot-2024-0904-110223.jpg',
+      'https://i.postimg.cc/3xq0JY2N/Screenshot-2024-0904-110223.jpg',
 
     ]
   },
