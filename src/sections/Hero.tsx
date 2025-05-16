@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
               <Button variant="primary">
                 View My Work
               </Button>
-              <a href="https://drive.google.com/file/d/1HufE-tfb1GGhqDE1cmYGlJudyCoaSfuW/view?usp=sharing" target='_blank' download>
+              <a href="https://drive.google.com/file/d/1uKTiFQU2cChEQ1U1RpMQ3chEHG8GVz-y/view?usp=sharing" target='_blank' download>
                 <Button variant="outline">
                   Download Resume
                 </Button>
