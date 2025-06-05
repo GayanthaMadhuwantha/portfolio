@@ -162,6 +162,20 @@ export const projects: Project[] = [
 'https://i.postimg.cc/3xq0JY2N/Screenshot-2024-0904-110223.jpg',
      ]
   },
+{
+  id: 7,
+    title: "Online shoe store",
+    description: "Simple and Affordable way to buy diseird shoes from Online Shoe Store(Demo Version).",
+    image: "https://i.postimg.cc/j5Mc2m1K/React-App-3.png",
+    category: "Web Development",
+    technologies: ["React", "Tailwind CSS", "Express.js","MySQL","Whatsapp api"],
+    link: "https://online-shoe-shop-zeta.vercel.app/",
+    github: "https://github.com/GayanthaMadhuwantha/online-shoe-shop", 
+     screenshots:[
+
+  'https://i.postimg.cc/j5Mc2m1K/React-App-3.png'
+     ]
+}
 
 
 ];
