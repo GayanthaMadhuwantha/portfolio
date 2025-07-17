@@ -166,14 +166,14 @@ export const projects: Project[] = [
   id: 7,
     title: "Online shoe store",
     description: "Simple and Affordable way to buy diseird shoes from Online Shoe Store(Demo Version).",
-    image: "https://i.postimg.cc/j5Mc2m1K/React-App-3.png",
+    image: "https://i.postimg.cc/jdZjxpyp/Sole-Style-Premium-Shoe-Store-1.png",
     category: "Web Development",
     technologies: ["React", "Tailwind CSS", "Express.js","MySQL","Whatsapp api"],
     link: "https://my-fullstack-vite-app-b7cqfefwcxezfyde.canadacentral-01.azurewebsites.net/",
     github: "https://github.com/GayanthaMadhuwantha/online-shoe-shop", 
      screenshots:[
 
-  'https://i.postimg.cc/j5Mc2m1K/React-App-3.png'
+  'https://i.postimg.cc/KzBzm45f/Sole-Style-Premium-Shoe-Store.png'
      ]
 }
 
