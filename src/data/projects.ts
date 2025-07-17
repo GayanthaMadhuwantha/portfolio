@@ -169,7 +169,7 @@ export const projects: Project[] = [
     image: "https://i.postimg.cc/j5Mc2m1K/React-App-3.png",
     category: "Web Development",
     technologies: ["React", "Tailwind CSS", "Express.js","MySQL","Whatsapp api"],
-    link: "https://my-fullstack-app-unique.azurewebsites.net/",
+    link: "https://my-fullstack-vite-app-b7cqfefwcxezfyde.canadacentral-01.azurewebsites.net/",
     github: "https://github.com/GayanthaMadhuwantha/online-shoe-shop", 
      screenshots:[
 
