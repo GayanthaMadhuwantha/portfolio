@@ -65,7 +65,7 @@ const About: React.FC = () => {
                   <div>
                     <h3 className="font-semibold">Coding Activity</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      50+ contributions on GitHub in the last year
+                      140+ contributions on GitHub in the last year
                     </p>
                   </div>
                 </div>
