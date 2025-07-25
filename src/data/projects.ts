@@ -95,7 +95,7 @@ export const projects: Project[] = [
     category: "Web Development",
     technologies: ["React", "Tailwind CSS", "Express.js", "MySQL", "Whatsapp api"],
     link: "https://my-fullstack-vite-app-b7cqfefwcxezfyde.canadacentral-01.azurewebsites.net/",
-    github: "https://github.com/GayanthaMadhuwantha/online-shoe-shop",
+    github: "https://github.com/GayanthaMadhuwantha/Online-Retail-Shoe-Site",
     screenshots: [
 
       'https://i.postimg.cc/KzBzm45f/Sole-Style-Premium-Shoe-Store.png'
