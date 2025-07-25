@@ -177,6 +177,20 @@ export const projects: Project[] = [
       'https://i.postimg.cc/3xq0JY2N/Screenshot-2024-0904-110223.jpg',
     ]
   },
+
+  {
+    id: 7,
+    title: "Cleaning Service Management System",
+    description: "Mobile application for managing cleaning service requests and schedules.",
+    image: "https://i.postimg.cc/7PnswB8N/React-App.png",
+    category: "Web Development",
+    technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "MYSQL"],
+    link: "https://cleaning-service-management-system-git-main-gayanthamaduwantha.vercel.app/login",
+    github: "https://github.com/GayanthaMadhuwantha/Cleaning-Service-Management-System",
+    screenshots: [
+      'https://i.postimg.cc/7PnswB8N/React-App.png',
+    ]
+  },
  
 
 
